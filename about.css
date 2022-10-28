@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header-content{
+    background-color: rgba(141, 158, 157, 0.639);
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.img1{
+    margin: 10px;
+}
+.my-name{
+    width: 30vw;
+    left: 10vw;
+    margin: 10px;
+}
+.nav-bar{
+    position: absolute;
+    right: 2vw;
+    margin: 10px;
+    padding: 15px;
+}
+a{
+    color: black;
+    padding-left: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.div1{
+    top: 20px;
+}
+.img2{
+    background-color: pink;
+    margin-top: 35%;
+}
+.div2{
+    position: absolute;
+    top: 45vh;
+    left: 30vw;
+    right: 30vh;
+}
+.list-of-projects{
+    margin-left: 15px;
+}
+.hubbies{
+    margin-left: 15px;
+}
+.skills{
+    margin-left: 15px;
+}
+.footer-content{
+    background-color: rgba(141, 158, 157, 0.639);
+    width: 100vw;
+    height: 10vh;
+    overflow: hidden;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.email{
+    position: absolute;
+    left: 35%;
+}
+.control control-5{
+    position: absolute;
+    left: 30%;
+}
+.call-div{
+    bottom: 10%;
+}
+.call{
+    position: absolute;
+    left: 70%;
+    margin-bottom: 2%;
+}
+.copy-right{
+    position: absolute;
+    left: 50%;
+}
