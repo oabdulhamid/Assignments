@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <header class="header-content">
+        <h1>Register your details</h1>
+        <p>THis page will help to know you</p>
+    </header>
+    <main class="main-container">
+        <form action="regSuccessful.html" class="form-container" target="_blank">
+            <table class="table-container">
+                <thead>
+                    <th class="heading">Registration Form</th>
+                </thead>
+                <tbody class="table-body">
+                    <tr class="t-row">
+                        <td><label for="fname">First Name</label></td>
+                        <td class="t-data"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td class="t-row"><label for="lname">Last Name</label></td>
+                        <td class="t-data"><input type="text" name="lname"></td>
+                    </tr>
+                    <tr class="t-row">
+                        <td><label for="pnumber">Phone Number</label></td>
+                        <td class="t-data"><input type="text" name="pnumber"></td>
+                    </tr>
+                    <tr class="t-row">
+                        <td><label for="email">Email</label></td>
+                        <td class="t-data"><input type="email" name="email"></td>
+                    </tr>
+                    <tr class="t-row">
+                        <td><label for="gender">Gender</label></td>
+                        <td class="t-data">
+                            <select name="gender" id="gender">
+                                <option value="">None</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="binary">Binary</option>
+                                <option value="non-binary">Non-binary</option>
+                                <option value="trans">Trans-gender</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>
+                            <label for="birthday">Date of Birth:</label>
+                        </td>
+                        <td>
+                            <input type="date" id="birthday" name="birthday">
+                        </td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>
+                            <label for="color">Select your favorite color:</label>
+                        </td>
+                        <td class="t-data">
+                            <input type="color" id="color" name="color" value="#ff0000">
+                        </td>
+                    </tr>
+                    </label>
+                    <tr class="register-button">
+                        <td><input type="submit" name="" value="Register"></td>
+                    </tr>
+                </tbody>
+                <tfoot class="table-footer"></tfoot>
+            </table>
+        </form>
+    </main>
+    <footer class="footer-content">
+
+    </footer>
+</body>
+
+</html>
